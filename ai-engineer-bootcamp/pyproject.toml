@@ -9,8 +9,11 @@ description = "Base project for Gemini API integration"
 requires-python = ">=3.10"
 dependencies = [
   "google-genai",
+  "groq",
+  "matplotlib",
   "python-dotenv",
   "rich",
+  "streamlit",
 ]
 
 [project.scripts]
